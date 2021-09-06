@@ -1,0 +1,6 @@
+framework module Pods_UberEatsLikeTests {
+  umbrella header "Pods-UberEatsLikeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
