@@ -22,7 +22,7 @@ class RestaurantTableViewCell: UITableViewCell {
     }
     
     func setCell(restaurant: Restaurant){
-        self.titleLabel.text = restaurant.name as String
+        self.titleLabel.text = (restaurant.name ?? "") as String
         self.timeRequiredLabel.text = restaurant.timeRequired as? String
         self.feeLabel.text = restaurant.fee as? String
     }

@@ -10,6 +10,7 @@
 		342487C6952334409B60BFC3 /* Pods_UberEatsLikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB2E92D14033B8DC0A65C39 /* Pods_UberEatsLikeTests.framework */; };
 		97664FBC7508E54D1C3B2ED2 /* Pods_UberEatsLike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25BC9D9CE5017BDDA58061F /* Pods_UberEatsLike.framework */; };
 		A239E12B2E439FFDED8AE494 /* Pods_UberEatsLike_UberEatsLikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20605D9CC727CC6CD27A1333 /* Pods_UberEatsLike_UberEatsLikeUITests.framework */; };
+		CE47044826EE38D8009AAEE7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47044726EE38D8009AAEE7 /* Extensions.swift */; };
 		CE5259C026E387E500DD6E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5259BF26E387E500DD6E89 /* AppDelegate.swift */; };
 		CE5259C226E387E500DD6E89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5259C126E387E500DD6E89 /* SceneDelegate.swift */; };
 		CE5259C426E387E500DD6E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5259C326E387E500DD6E89 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		8722826F22F1020B25C567E0 /* Pods-UberEatsLike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberEatsLike.release.xcconfig"; path = "Target Support Files/Pods-UberEatsLike/Pods-UberEatsLike.release.xcconfig"; sourceTree = "<group>"; };
 		B793282FA9271A0C60A94835 /* Pods-UberEatsLikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberEatsLikeTests.release.xcconfig"; path = "Target Support Files/Pods-UberEatsLikeTests/Pods-UberEatsLikeTests.release.xcconfig"; sourceTree = "<group>"; };
 		C0DB7D919971211F8C4469B3 /* Pods-UberEatsLike-UberEatsLikeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberEatsLike-UberEatsLikeUITests.release.xcconfig"; path = "Target Support Files/Pods-UberEatsLike-UberEatsLikeUITests/Pods-UberEatsLike-UberEatsLikeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE47044726EE38D8009AAEE7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CE5259BC26E387E500DD6E89 /* UberEatsLike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberEatsLike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5259BF26E387E500DD6E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5259C126E387E500DD6E89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +122,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CE47044626EE38AF009AAEE7 /* Extansions */ = {
+			isa = PBXGroup;
+			children = (
+				CE47044726EE38D8009AAEE7 /* Extensions.swift */,
+			);
+			path = Extansions;
+			sourceTree = "<group>";
+		};
 		CE5259B326E387E500DD6E89 = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +155,7 @@
 		CE5259BE26E387E500DD6E89 /* UberEatsLike */ = {
 			isa = PBXGroup;
 			children = (
+				CE47044626EE38AF009AAEE7 /* Extansions */,
 				CED20C4626E38F760006D3EC /* Models */,
 				CE5259BF26E387E500DD6E89 /* AppDelegate.swift */,
 				CE5259C126E387E500DD6E89 /* SceneDelegate.swift */,
@@ -425,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED20C4D26E4643E0006D3EC /* RestaurantTableViewCell.swift in Sources */,
+				CE47044826EE38D8009AAEE7 /* Extensions.swift in Sources */,
 				CE5259C426E387E500DD6E89 /* ViewController.swift in Sources */,
 				CE5259C026E387E500DD6E89 /* AppDelegate.swift in Sources */,
 				CED20C4826E38F9C0006D3EC /* RestaurantsModel.swift in Sources */,
